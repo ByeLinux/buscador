@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faveni Smart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Faveni Smart</h1>
+
+    <label for="area">Área de Atuação:</label>
+    <select id="area">
+      <option value="">Todas as áreas</option>
+      <option value="Saúde">Saúde</option>
+      <option value="Tecnologia">Tecnologia</option>
+      <option value="Educação">Educação</option>
+      <option value="Teologia">Teologia</option>
+      <option value="Administração">Administração</option>
+      <option value="Direito">Direito</option>
+      <option value="Psicologia">Psicologia</option>
+      <option value="Agronomia">Agronomia</option>
+      <option value="Artes">Artes</option>
+      <option value="Arquitetura">Arquitetura</option>
+      <option value="Enfermagem">Enfermagem</option>
+      <option value="Biologia">Biologia</option>
+      <option value="Engenharia civil">Engenharia civil</option>
+      <option value="Engenharias (diversas)">Engenharias (diversas)</option>
+      <option value="Veterinária">Veterinária</option>
+      <option value="Esportes">Esportes</option>  
+      <option value="Gastronomia">Gastronomia</option>
+    </select>
+
+    <label for="tipo">Tipo de Curso:</label>
+    <select id="tipo">
+      <option value="">Todos os tipos</option>
+      <option value="Bacharelado">Bacharelado</option>
+      <option value="Tecnólogo">Tecnólogo</option>
+      <option value="Pós-graduação">Pós-graduação</option>
+      <option value="Cursos de Capacitação">Cursos de Capacitação</option>
+      <option value="Licenciatura">Licenciatura</option>
+      <option value="2º Licenciatura">2º Licenciatura</option>
+      <option value="Todos">Todos os cursos</option> 
+    </select>
+
+    <label for="name">Pesquisar por Nome:</label>
+    <input type="text" id="name" placeholder="Digite o nome do curso">
+
+    <button id="pesquisar">Pesquisar</button>
+
+    <div id="resultados">
+      <!-- Resultados da pesquisa -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
